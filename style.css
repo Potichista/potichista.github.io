@@ -1,0 +1,95 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* TODO: Add @media queries to support more devices/layouts */
+
+@media(min-width:767px) {
+    .navbar {
+        /* This controls the navbar height effect */
+        padding: 8px 0;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.jumbotron h1 {
+    font-size: 3em;
+}
+
+.jumbotron {
+    background: #454545;
+    color: #eee;
+}
+
+.contact-section li {
+    padding: 0 20px;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-pinterest,
+.fa-twitter {
+    color: #eee;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-pinterest:hover,
+.fa-twitter:hover {
+    color: #fffccc
+}
+
+.main-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: url('potichista-1900x1080-optimized.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 200px;
+    background: #454545;
+    color: #eee;
+}
+
+.gallery-section {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #eee;
+}
+
+.contact-section {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #454545;
+    color: #eee;
+    text-align: center;
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+#home,
+.brand {
+    color: #fffccc;
+}
