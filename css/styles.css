@@ -1,0 +1,128 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        /* This controls the navbar height effect */
+        padding: 8px 0;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Main
+----------------------------------------------------------------------------- */
+
+.main-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: url('../img/potichista-background-1900x1080.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#home,
+.brand {
+    color: sandybrown;
+}
+
+/* About
+----------------------------------------------------------------------------- */
+
+.about-section {
+    height: 100%;
+    padding-top: 200px;
+    background: #454545;
+    color: #eee;
+}
+
+/* xs (less than 768px) */
+@media screen and (max-width: 767px) {
+    .about-section {
+        font-size: large;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    .about-section {
+        font-size: x-large;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    .about-section {
+        font-size: xx-large;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    .about-section {
+        font-size: xx-large;
+    }
+}
+
+/* Gallery
+----------------------------------------------------------------------------- */
+
+.gallery-section {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #eee;
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+/* Contact
+----------------------------------------------------------------------------- */
+
+.contact-section {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #454545;
+    color: #eee;
+    text-align: center;
+}
+
+.contact-section li {
+    padding: 0 20px;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-pinterest,
+.fa-twitter {
+    color: #eee;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-pinterest:hover,
+.fa-twitter:hover {
+    color: sandybrown;
+}
+
